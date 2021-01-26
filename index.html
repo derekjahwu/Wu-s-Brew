@@ -19,12 +19,13 @@
                          <div class="lower">
                                 <h2>Coming Soon!</h2>
                                 <h3>Here's how to stay connected with us</h3>
-                                <div class="subscribe">
+
+                                <form method="POST" class="subscribe">
                                     <i class="far fa-envelope"></i>
                                     <input class="email-box" type="email" name="email" placeholder="Enter your email">
-                                    <button class="btn" type="button" name="button">Subscribe</button>
-                                    
-                                </div>
+                                    <button class="btn" type="submit" value="submit">Subscribe</button>
+                                </form>
+
                                 <div class="social">
                                     <i type="btn" class="fab fa-instagram"></i>
                                     <i class="fab fa-facebook"></i>
@@ -38,5 +39,7 @@
             </div>
         </div>
     </section>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
