@@ -122,26 +122,3 @@
 }
 
 
-@media only screen and (max-width:700px) and (max-height:730px){
-
-    #text{
-        padding:5px;
-}
-
-    #text h1{
-        font-size: 25px;
-    }
-
-    #text p{
-       display:none;
-    }
-
-    .lower{
-        font-size: 10px;
-    }
-
-    .subscribe:hover > .email-box,.email-box:focus{
-        width: 70px;
-    }
-}
-
